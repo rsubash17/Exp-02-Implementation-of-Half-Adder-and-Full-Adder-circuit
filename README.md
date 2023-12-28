@@ -41,6 +41,14 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: Subash R
 RegisterNumber:  23003821
 */
+```
+module project_3(sum,carry,a,b); 
+input a,b; 
+output sum,carry; 
+xor sum1(sum,a,b); 
+and carry1(carry,a,b); 
+endmodule
+```
 
 ### Output:
 ### RTL:
